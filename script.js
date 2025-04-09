@@ -43,14 +43,26 @@ const postres = ["helado", "tarta", "pastel"]
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
-//Escribe tu código aquí
+let coder = {
+    nombre: "Morena",
+    edad: 33
+}
 
 
+console.log(coder)
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
-//Escribe tu código aquí
+console.log(typeof string)
+console.log(typeof number)
+console.log(typeof boolean)
+console.log(typeof nullValue)
+console.log(typeof undefinedValue)
+console.log(typeof object)
+console.log(typeof array)
+console.log(typeof postres)
+console.log(typeof coder)
 
 
 
@@ -58,14 +70,16 @@ const postres = ["helado", "tarta", "pastel"]
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
-
+let suma = 37 + 42
+console.log(suma)
 
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
+
+let resta = 100 - 51
+console.log(resta)
 
 
 
