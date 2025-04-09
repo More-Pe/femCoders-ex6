@@ -86,14 +86,16 @@ console.log(resta)
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
+let multiplicacion = 51 * 120
+console.log(multiplicacion)
 
 
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
+let division = 120 / 51
+console.log(division)
 
 
 
@@ -101,26 +103,28 @@ console.log(resta)
 //OPERADORES DE COMPARACIÓN
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
-//Escribe tu código aquí
-
+let num1 = 32797
+let num2 = 31273
+let comparacion = num1 == num2
+console.log(comparacion)
 
 
 
 // Ejercicio 10: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
-//Escribe tu código aquí
-
+let comparacion2 = num1 != num2
+console.log(comparacion2)
 
 
 
 //Ejercicio 11: completa el ejercicio
-/*
-let num1 = 15
-let num2 = 20
 
-let comparacion = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
-console.log(comparacion)
-*/
+let numA = 15
+let numB = 20
+
+let comparacion3 = numA < numB
+console.log(comparacion3)
+
 
 //Ejercicio 12: completa el ejercicio
 /*
